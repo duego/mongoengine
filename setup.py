@@ -62,7 +62,7 @@ else:
     extra_opts['packages'] = find_packages(exclude=('tests',))
 
 setup(name='mongoengine',
-      version=VERSION,
+      version='%s-intfield' % VERSION,
       author='Harry Marr',
       author_email='harry.marr@{nospam}gmail.com',
       maintainer="Ross Lawley",
